@@ -1,0 +1,121 @@
+body{
+    /* 
+    width: 1280px;
+    height: 1937px; */
+    background: black;
+    color: white;
+    font-family: 'Raleway', 'sans-serif';
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+.imgbanner{
+    width: 100%;
+
+}
+
+.title h1{
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-size: 3.125rem;
+    margin: 1rem 0;
+}
+
+section{
+    width: 100%;
+}
+
+.info{
+    display: flow-root;
+}
+
+.description{
+    float: left;
+    /* outline: 3px solid red;  *//* ---> guia para ver los elementos */
+    width: 50%;
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-bottom: 24px;
+    font-size: 1rem;
+}
+
+.text2{
+    margin-top: 2rem;
+}
+
+
+.image1{
+    float: right;
+    /* outline: 3px solid violet;  *//* ---> guia para ver los elementos */
+    width: auto;
+    height: 30rem;
+    margin-right: 3rem;
+    margin-bottom: 24px;
+}
+
+.features{
+    width: 100%;
+    padding: 16px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+}
+
+h2{
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem
+}
+
+.icon{
+    display:inline-block;
+    width: 33%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+i{
+    font-size: 250%;
+}
+
+.icon:hover{
+    color:rgb(195, 250, 44);
+}
+
+.gallery{
+    text-align: center;
+    width: 100%;
+    padding: 16px;
+}
+.photo{
+    display:inline-block;
+    width: 31%;
+    margin: 8px;
+}
+
+.imgdog{
+    height: 202px;
+    width: 316px;
+    border-radius: 3%;
+}
+
+footer{
+    width: 100%;
+    font-size: 1.45rem;
+    text-align: center;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    padding: 16px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(195, 250, 44);
+}
+footer a:hover{
+    color:rgb(255, 136, 0)
+}
